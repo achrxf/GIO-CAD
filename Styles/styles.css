@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D3D3D3;
+    color: #0B090A;
+    font-size: large;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+}
+
+h3 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}

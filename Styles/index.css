@@ -1,0 +1,279 @@
+/*-----------------------------------------------Header---------------------------------------------------------------------------*/
+
+header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1.5%;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border: 2px, solid, #0B090A;
+    border-radius: 50px;
+    z-index: 6969;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #0B090A;
+}
+
+.logoImg {
+    position: absolute;
+    top: -20%;
+    left: 15%;
+}
+
+.blue-strip {
+    background: linear-gradient(to bottom, #3C6ECF, #143169);
+    width: 80px;
+    min-height: 200vh;
+    position: fixed;
+    left: 19.2%;
+    z-index: -6969;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Hero-----------------------------------------------------------------------------*/
+
+.hero {
+    display: flex;
+
+}
+
+.leftSide {
+    width: 50%;
+    z-index: 1;
+}
+
+.heroParagraph {
+    margin-top: 5%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    overflow: visible;
+}
+
+.heroParagraph h3 {
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.heroParagraph p {
+    width: 85%;
+    margin-right: -20%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.heroParagraph button {
+    background: none;
+    border: 2px, solid, #0B090A;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 3%;
+    margin-right: -15%;
+    letter-spacing: 2px;
+}
+
+.heroPart2 {
+    margin-top: -5%;
+    margin-left: 16%;
+}
+
+.rightSide {
+    width: 50%;
+}
+
+.heroPart1 {
+    margin-right: 3%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Why Choose Us?-------------------------------------------------------------------*/
+
+.why-choose-us h3 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.card {
+    background: rgb(44, 43, 43, 0.8);
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img {
+    width: auto;
+    height: auto;
+}
+
+.card h4 {
+    color: #D3D3D3;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.card p {
+    color: #D3D3D3;
+    text-align: center;
+    width: 70%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Specialized Services-------------------------------------------------------------*/
+
+.specialized-services {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.servicesImg1 {
+    position: absolute;
+    top: -60%;
+    left: 1%;
+    z-index: -10;
+}
+
+.servicesImg2 {
+    position: absolute;
+    top: -30%;
+    right: -1%;
+    z-index: -10;
+}
+
+.servicesContent {
+    height: 70%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.servicesContent button {
+    background: none;
+    border: 2px, solid, #0B090A;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Industries We Serve-------------------------------------------------------------*/
+
+.industryContent {
+    background: rgb(44, 43, 43, 0.5);
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 7%;
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.industryContent h3 {
+    margin-bottom: 2%;
+}
+
+.industries {
+    position: relative;
+}
+
+.leftWheel {
+    position: absolute;
+    top: -50%;
+    left: -1%;
+}
+
+.rightWheel {
+    position: absolute;
+    top: -30%;
+    right: -1%;
+}
+
+.wheel {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: -100;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Footer---------------------------------------------------------------------------*/
+
+footer {
+    background-color: #0B090A;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    color: #D3D3D3;
+    text-align: center;
+    width: 60%;
+}
+
+footer button {
+    border: 2px, solid, #D3D3D3;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 2px;
+}
