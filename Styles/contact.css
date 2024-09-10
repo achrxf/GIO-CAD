@@ -1,0 +1,117 @@
+/*-----------------------------------------------Header---------------------------------------------------------------------------*/
+
+header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1.5%;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border: 2px, solid, #0B090A;
+    border-radius: 50px;
+    z-index: 6969;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #0B090A;
+}
+
+.logoImg {
+    position: absolute;
+    top: -20%;
+    left: 15%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------contact--------------------------------------------------------------------------*/
+
+.contact {
+    position: relative;
+}
+
+.contact img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.contactForm h3 {
+    margin-bottom: 50%;
+}
+
+.contactForm input {
+    background-color: #143169;
+    color: #d3d3d3;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+textarea {
+    background-color: #143169;
+    color: #d3d3d3;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+
+.contactForm input::placeholder {
+    color: #d3d3d3;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+textarea::placeholder {
+    color: #d3d3d3;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.contactForm button {
+    width: 300px;
+    padding: 10px;
+    background-color: #d3d3d3;
+    border: 2px, solid, #143169;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #143169;
+    letter-spacing: 5px;
+    font-style: italic;
+}
