@@ -1,0 +1,143 @@
+/*-----------------------------------------------Header---------------------------------------------------------------------------*/
+
+header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1.5%;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border: 2px, solid, #0B090A;
+    border-radius: 50px;
+    z-index: 6969;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #0B090A;
+}
+
+.logoImg {
+    position: absolute;
+    top: -20%;
+    left: 15%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------Our Story-----------------------------------------------------------------*/
+
+.ourStory {
+    height: auto;
+}
+
+.OSContent {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourStory p {
+    width: 75%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Mission & Vision-----------------------------------------------------------------*/
+
+.missionVision {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MVContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 8%;
+}
+
+.MVContent p {
+    margin-top: 3%;
+    width: 80%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Our Future-----------------------------------------------------------------------*/
+
+.ourFuture {
+    position: relative;
+    height: 50vh;
+}
+
+.ourFuture img {
+    position: absolute;
+    left: 10%;
+}
+
+.OFContent {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.OFContent p {
+    margin-top: 5%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------Footer---------------------------------------------------------------------------*/
+
+footer {
+    background-color: #0B090A;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    color: #D3D3D3;
+    text-align: center;
+    width: 60%;
+}
+
+footer button {
+    border: 2px, solid, #D3D3D3;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 2px;
+}
