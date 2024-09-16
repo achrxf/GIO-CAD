@@ -37,6 +37,8 @@ a {
 }
 
 .logoImg {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
     position: absolute;
     top: -20%;
     left: 15%;
@@ -87,6 +89,7 @@ a {
 }
 
 .heroParagraph button {
+    cursor: pointer;
     background: none;
     border: 2px, solid, #0B090A;
     border-radius: 5px;
@@ -96,6 +99,14 @@ a {
     margin-top: 3%;
     margin-right: -15%;
     letter-spacing: 2px;
+}
+
+.heroParagraph button:hover {
+    background-color: rgb(44, 43, 43, 0.2);
+}
+
+.heroParagraph button:active {
+    background-color: rgb(44, 43, 43, 0.5);
 }
 
 .heroPart2 {
@@ -194,12 +205,21 @@ a {
 }
 
 .servicesContent button {
+    cursor: pointer;
     background: none;
     border: 2px, solid, #0B090A;
     border-radius: 5px;
     padding: 5px;
     margin-top: 5%;
     letter-spacing: 2px;
+}
+
+.servicesContent button:hover {
+    background-color: rgb(44, 43, 43, 0.2);
+}
+
+.servicesContent button:active {
+    background-color: rgb(44, 43, 43, 0.5);
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
@@ -270,10 +290,19 @@ footer p {
 }
 
 footer button {
+    cursor: pointer;
     border: 2px, solid, #D3D3D3;
     border-radius: 5px;
     padding: 5px;
     padding-left: 100px;
     padding-right: 100px;
     letter-spacing: 2px;
+}
+
+footer button:hover {
+    background-color: rgba(230, 230, 230, 0.8);
+}
+
+footer button:active {
+    background-color: rgba(230, 230, 230, 0.5);
 }

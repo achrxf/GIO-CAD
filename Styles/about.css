@@ -37,6 +37,8 @@ a {
 }
 
 .logoImg {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
     position: absolute;
     top: -20%;
     left: 15%;
@@ -134,10 +136,19 @@ footer p {
 }
 
 footer button {
+    cursor: pointer;
     border: 2px, solid, #D3D3D3;
     border-radius: 5px;
     padding: 5px;
     padding-left: 100px;
     padding-right: 100px;
     letter-spacing: 2px;
+}
+
+footer button:hover {
+    background-color: rgba(230, 230, 230, 0.8);
+}
+
+footer button:active {
+    background-color: rgba(230, 230, 230, 0.5);
 }
