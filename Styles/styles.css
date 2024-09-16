@@ -32,3 +32,12 @@ p {
     font-size: 15px;
     letter-spacing: 1px;
 }
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
